@@ -1,0 +1,41 @@
+{
+    "SerializedVersion": "10",
+    "Title": "CutawayShader",
+    "OutputTarget": "Universal",
+    "SubTarget": "Lit",
+    "Properties": [
+        {
+            "name": "CutterPosition",
+            "referenceName": "_CutterPosition",
+            "type": "Vector3",
+            "defaultValue": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "exposed": true
+        },
+        {
+            "name": "CutterSize",
+            "referenceName": "_CutterSize",
+            "type": "Float",
+            "defaultValue": 0.5,
+            "exposed": true
+        }
+    ],
+    "GraphSettings": {
+        "SurfaceType": "Opaque",
+        "AlphaClip": true,
+        "TwoSided": false
+    },
+    "Nodes": [],
+    "Edges": [],
+    "Outputs": {
+        "Color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+        }
+    }
+}
